@@ -1,0 +1,16 @@
+/* ACCESSIBILITY.CSS — Tamanho de fonte */
+
+/* Tamanho padrão */
+body {
+  font-size: 16px;
+}
+
+/* Tamanho aumentado */
+body.font-large {
+  font-size: 20px;
+}
+
+body.font-large h1 { font-size: 2.5rem; }
+body.font-large h2 { font-size: 2rem; }
+body.font-large h3 { font-size: 1.5rem; }
+body.font-large p  { font-size: 1.25rem; }

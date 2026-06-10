@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureInfo — Segurança da Informação</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="material-icons">shield</span>
+        SecureInfo
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="content1.html">Conteúdo</a></li>
+        <li><a href="seguranca.html">Gerador de Senhas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- tamanho de fonte -->
+        <button
+          id="btn-accessibility"
+          class="btn-icon"
+          title="Aumentar fonte"
+          aria-label="Alternar tamanho da fonte"
+        >
+          <span class="material-icons">accessibility</span>
+        </button>
+
+        <!-- Dark / Light theme -->
+        <button
+          id="btn-theme"
+          class="btn-icon"
+          title="Alternar tema"
+          aria-label="Alternar tema claro e escuro"
+        >
+          <span class="material-icons" id="theme-icon">dark_mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="section-label">Cartilha de Segurança Digital</p>
+        <h1>Proteja sua vida<br>no ambiente digital.</h1>
+        <p class="section-subtitle">
+          Conteúdo educativo sobre segurança da informação desenvolvido a partir
+          das cartilhas produzidas na disciplina de Cybersegurança.
+        </p>
+        <a href="content1.html" class="btn-primary">Explorar conteúdo</a>
+      </div>
+    </section>
+
+    <!-- TÓPICOS -->
+    <section id="topics">
+      <div class="container">
+        <p class="section-label">O que você vai aprender</p>
+        <h2 class="section-title">Temas abordados</h2>
+
+        <div class="topics-grid">
+
+          <article class="card">
+            <span class="material-icons card-icon">security</span>
+            <h3>Tema 1</h3>
+            <p>etc</p>
+            <a href="content1.html">Ver mais →</a>
+          </article>
+
+          <article class="card">
+            <span class="material-icons card-icon">security</span>
+            <h3>Tema 2</h3>
+            <p>etc</p>
+            <a href="content1.html">Ver mais →</a>
+          </article>
+
+          <article class="card">
+            <span class="material-icons card-icon">security</span>
+            <h3>Tema 3</h3>
+            <p>etc</p>
+            <a href="content2.html">Ver mais →</a>
+          </article>
+
+          <article class="card">
+            <span class="material-icons card-icon">security</span>
+            <h3>Tema 4</h3>
+            <p>etc</p>
+            <a href="content2.html">Ver mais →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção gerador de senhas -->
+    <section id="secao-senha">
+      <div class="container">
+        <div class="card">
+          <span class="material-icons">password</span>
+          <h2>Teste sua segurança agora</h2>
+          <p>Use nosso gerador para criar uma senha forte em segundos.</p>
+          <a href="seguranca.html" class="btn-primary">Gerar senha segura</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>
+        <span class="material-icons" style="font-size:1rem;vertical-align:middle;">shield</span>
+        SecureInfo — Universidade de Passo Fundo · Web Lab 2025
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/theme.js"></script>
+  <script src="js/accessibility.js"></script>
+
+</body>
+</html>
