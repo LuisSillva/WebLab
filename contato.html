@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="material-icons">shield</span>
+        Golpes, evite fraudes
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content1.html">Conteúdo</a></li>
+        <li><a href="seguranca.html">Gerador de Senhas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html"  class="active">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- tamanho de fonte -->
+        <button
+          id="btn-accessibility"
+          class="btn-icon"
+          title="Aumentar fonte"
+          aria-label="Alternar tamanho da fonte"
+        >
+          <span class="material-icons">accessibility</span>
+        </button>
+
+        <!-- Dark / Light theme -->
+        <button
+          id="btn-theme"
+          class="btn-icon"
+          title="Alternar tema"
+          aria-label="Alternar tema claro e escuro"
+        >
+          <span class="material-icons" id="theme-icon">dark_mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="section-label">Fale conosco</p>
+        <h1>Entre em Contato.</h1>
+        <p class="section-subtitle">
+            Tem dúvidas, sugestões ou quer saber mais sobre segurança digital?
+            Preencha o formulário abaixo e entraremos em contato.
+        </p>
+        <a href="sobre.html" class="btn-primary">← Tema anterior</a>
+      </div>
+    </section>
+
+    <section id="secao-contato">
+      <div class="container">
+        <div class="card contact-card-form">
+          
+          <form id="form-contato">
+            
+            <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail Corporativo ou Acadêmico</label>
+              <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="nav-conteudos">
+      <div class="container">
+        <div class="nav-pages">
+          <span></span>
+          <a href="index.html" class="btn-primary">Volte a página inicial →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+    </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <span class="material-icons" style="font-size:1rem;vertical-align:middle;">shield</span>
+        Golpes, evite fraudes — Universidade de Passo Fundo · Web Lab 2025
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/theme.js"></script>
+  <script src="js/accessibility.js"></script>
+  <script src="js/contato.js"></script>
+
+</body>
+</html>

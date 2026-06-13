@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proteja suas contas</title>
+
+
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="material-icons">shield</span>
+        Golpes, evite fraudes
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content1.html" class="active">Conteúdo</a></li>
+        <li><a href="seguranca.html">Gerador de Senhas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- tamanho de fonte -->
+        <button
+          id="btn-accessibility"
+          class="btn-icon"
+          title="Aumentar fonte"
+          aria-label="Alternar tamanho da fonte"
+        >
+          <span class="material-icons">accessibility</span>
+        </button>
+
+        <!-- Dark / Light theme -->
+        <button
+          id="btn-theme"
+          class="btn-icon"
+          title="Alternar tema"
+          aria-label="Alternar tema claro e escuro"
+        >
+          <span class="material-icons" id="theme-icon">dark_mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="section-label">Fascículo golpes, evite fraudes</p>
+        <h1>Proteja suas Contas.</h1>
+        <p class="section-subtitle">
+          Além de manipular as emoções das pessoas, fraudadores também se aproveitam de brechas de segurança
+          para aplicar golpes. Veja aqui como se proteger.
+        </p>
+        <a href="content2.html" class="btn-primary">Próximo tema → </a>
+      </div>
+    </section>
+
+    <section id="topic-contas">
+      <div class="container">
+        <p class="section-label">Tema 1</p>
+        <h2 class="section-title">Proteja suas Contas</h2>
+
+        <div class="content-grid">
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">lock</span>
+            <h3>Use senhas fortes</h3>
+            <p>
+              Crie senhas longas, combinando letras maiúsculas, minúsculas, números e caracteres
+              especiais. Evite informações pessoais óbvias como datas de nascimento ou nomes.
+              Nunca repita a mesma senha em serviços diferentes.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">verified_user</span>
+            <h3>Ative a verificação em duas etapas</h3>
+            <p>
+              A autenticação de dois fatores (2FA) adiciona uma camada extra de segurança.
+              Mesmo que alguém descubra sua senha, não conseguirá acessar sua conta sem o
+              segundo fator — geralmente um código enviado ao seu celular.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">sms_failed</span>
+            <h3>Nunca passe senhas ou códigos</h3>
+            <p>
+              Nenhuma empresa legítima solicita sua senha por telefone, SMS ou mensagem.
+              Se alguém pedir um código de verificação que você acabou de receber, é golpe.
+              Desligue e contate a empresa pelos canais oficiais.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">admin_panel_settings</span>
+            <h3>Atenção redobrada com contas importantes</h3>
+            <p>
+              Contas usadas para recuperar senhas (e-mail principal) ou acessar vários serviços
+              — como o gov.br — merecem cuidado especial. Se um golpista tomar controle dessas
+              contas, pode acessar tudo que está vinculado a elas.
+            </p>
+          </article>
+
+    <section id="nav-conteudos">
+      <div class="container">
+        <div class="nav-pages">
+          <span></span>
+          <a href="content2.html" class="btn-primary">Próximo: Não acesse qualquer link →</a>
+        </div>
+      </div>
+    </section>
+    
+    </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <span class="material-icons" style="font-size:1rem;vertical-align:middle;">shield</span>
+        Golpes, evite fraudes — Universidade de Passo Fundo · Web Lab 2025
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/theme.js"></script>
+  <script src="js/accessibility.js"></script>
+
+</body>
+</html>

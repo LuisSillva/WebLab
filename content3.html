@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesse sites e aplicativos oficiais</title>
+
+
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="material-icons">shield</span>
+        Golpes, evite fraudes
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content1.html" class="active">Conteúdo</a></li>
+        <li><a href="seguranca.html">Gerador de Senhas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- tamanho de fonte -->
+        <button
+          id="btn-accessibility"
+          class="btn-icon"
+          title="Aumentar fonte"
+          aria-label="Alternar tamanho da fonte"
+        >
+          <span class="material-icons">accessibility</span>
+        </button>
+
+        <!-- Dark / Light theme -->
+        <button
+          id="btn-theme"
+          class="btn-icon"
+          title="Alternar tema"
+          aria-label="Alternar tema claro e escuro"
+        >
+          <span class="material-icons" id="theme-icon">dark_mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="section-label">Fascículo golpes, evite fraudes</p>
+        <h1>Acesse sites e aplicativos oficiais.</h1>
+        <p class="section-subtitle">
+          Tem certeza de que o site ou app é autêntico? Todo cuidado é pouco. Golpistas criam páginas e apps
+          falsos que imitam organizações conhecidas para fazer vítimas.
+        </p>
+        <a href="content2.html" class="btn-primary">← Tema anterior</a>
+      </div>
+    </section>
+
+    <section id="topic-contas">
+      <div class="container">
+        <p class="section-label">Tema 3</p>
+        <h2 class="section-title">Acesse sites e aplicativos oficiais</h2>
+
+        <div class="content-grid">
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">lock</span>
+            <h3>Use conexões seguras (https)</h3>
+            <p>
+              Sempre verifique se o endereço começa com https:// o "s" 
+              indica que a conexão é criptografada.<br> No entanto, HTTPS não 
+              garante que o site é legítimo, apenas que a conexão é segura.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">search</span>
+            <h3>Cuidado com resultados de busca</h3>
+            <p>
+                Ao usar ferramentas de busca, confira se a URL mostrada é a legítima
+                antes de clicar. Anúncios patrocinados podem aparecer no topo e levar
+                a sites falsos que imitam marcas conhecidas.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">store</span>
+            <h3>Instale apps só de lojas oficiais</h3>
+            <p>
+                Baixe aplicativos apenas da App Store (iOS) ou Google Play (Android). 
+                Antes de instalar, confirme se o desenvolvedor listado é o correto.
+                Nunca instale apps recebidos por link em mensagens.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">manage_search</span>
+            <h3>Verifique o perfil oficial</h3>
+            <p>
+                Quer contatar uma empresa pelas redes sociais? Golpistas criam perfis 
+                falsos fingindo ser organizações conhecidas. Busque o nome na página 
+                oficial da empresa e observe o histórico do perfil: data de criação e publicações antigas.
+            </p>
+          </article>
+
+    <section id="nav-conteudos">
+      <div class="container">
+        <div class="nav-pages">
+          <span></span>
+          <a href="content4.html" class="btn-primary">Próximo: Cuidado com QR codes em locais públicos →</a>
+        </div>
+      </div>
+    </section>
+    </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <span class="material-icons" style="font-size:1rem;vertical-align:middle;">shield</span>
+        Golpes, evite fraudes — Universidade de Passo Fundo · Web Lab 2025
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/theme.js"></script>
+  <script src="js/accessibility.js"></script>
+
+</body>
+</html>

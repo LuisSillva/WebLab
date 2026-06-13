@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+
+
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="material-icons">shield</span>
+        Golpes, evite fraudes
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content1.html" >Conteúdo</a></li>
+        <li><a href="seguranca.html" class="active">Gerador de Senhas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- tamanho de fonte -->
+        <button
+          id="btn-accessibility"
+          class="btn-icon"
+          title="Aumentar fonte"
+          aria-label="Alternar tamanho da fonte"
+        >
+          <span class="material-icons">accessibility</span>
+        </button>
+
+        <!-- Dark / Light theme -->
+        <button
+          id="btn-theme"
+          class="btn-icon"
+          title="Alternar tema"
+          aria-label="Alternar tema claro e escuro"
+        >
+          <span class="material-icons" id="theme-icon">dark_mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="section-label">Ferramenta para gerar senhas completamente aleatórias</p>
+        <h1>Gerador de senhas fortes.</h1>
+        <p class="section-subtitle">
+            Uma senha forte é sua primeira linha de defesa. Gere uma senha aleatória
+            e segura com um clique - e aprenda o que torna uma senha realmente difícil de quebrar.
+        </p>
+        <a href="content4.html" class="btn-primary">← Tema anterior</a>
+      </div>
+    </section>
+
+<section id="secao-senha">
+      <div class="container">
+        <div class="card">
+          <span class="material-icons">lock_open</span>
+          <h2>Gerar Senha Forte</h2>
+          <p>Clique no botão para criar uma combinação aleatória e altamente segura.</p>
+          
+          <div class="password-wrapper">
+            <input 
+              type="text" 
+              id="password-display" 
+              readonly 
+              placeholder="Sua senha aparecerá aqui..."
+            >
+          </div>
+
+          <button id="btn-generate" class="btn-primary">Gerar Senha</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="nav-conteudos">
+      <div class="container">
+        <div class="nav-pages">
+          <span></span>
+          <a href="sobre.html" class="btn-primary">Próximo: Conheça o time →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <span class="material-icons" style="font-size:1rem;vertical-align:middle;">shield</span>
+        Golpes, evite fraudes — Universidade de Passo Fundo · Web Lab 2025
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/accessibility.js"></script>
+  <script src="js/gerador.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links abertos</title>
+
+
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/accessibility.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="material-icons">shield</span>
+        Golpes, evite fraudes
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content1.html" class="active">Conteúdo</a></li>
+        <li><a href="seguranca.html">Gerador de Senhas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- tamanho de fonte -->
+        <button
+          id="btn-accessibility"
+          class="btn-icon"
+          title="Aumentar fonte"
+          aria-label="Alternar tamanho da fonte"
+        >
+          <span class="material-icons">accessibility</span>
+        </button>
+
+        <!-- Dark / Light theme -->
+        <button
+          id="btn-theme"
+          class="btn-icon"
+          title="Alternar tema"
+          aria-label="Alternar tema claro e escuro"
+        >
+          <span class="material-icons" id="theme-icon">dark_mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container">
+        <p class="section-label">Fascículo golpes, evite fraudes</p>
+        <h1>Não acesse qualquer link.</h1>
+        <p class="section-subtitle">
+          Acessar links sem avaliar? É arriscado. Você pode cair em páginas de phising ou com malware, criadas para pegar seus dados, infectar seus dispositivos
+          e cometer fraudes.
+        </p>
+        <a href="content1.html" class="btn-primary">← Tema anterior</a>
+      </div>
+    </section>
+
+    <section id="topic-contas">
+      <div class="container">
+        <p class="section-label">Tema 2</p>
+        <h2 class="section-title">Não acesse qualquer link</h2>
+
+        <div class="content-grid">
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">link_off</span>
+            <h3>Confira o endereço do site (URL)</h3>
+            <p>
+              Confira o endereço do site(URL), antes de acessar o link. Na dúvida, não acesse!.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">qr_code_scanner</span>
+            <h3>Cuidado com QR Codes</h3>
+            <p>
+                Adote os mesmos cuidados com links obtidos de QR Codes. Golpistas podem substituir 
+                códigos originais por falsos em placas, folhetos e cartazes. Verifique sempre se há
+                adesivo colado por cima do código original.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">person_off</span>
+            <h3>Desconfie até de conhecidos</h3>
+            <p>
+                Mesmo que uma mensagem com link venha de um amigo ou familiar, desconfie. A conta da
+                pessoa pode estar invadida ou o dispositivo infectado. Entre em contato por outro canal
+                para confirmar antes de clicar.
+            </p>
+          </article>
+
+          <article class="card content-card">
+            <span class="material-icons card-icon">phishing</span>
+            <h3>Phishing</h3>
+            <p>
+                Phising é um tipo de fraude na qual golpistar tentam obter informações pessoais e financeiras, combinando engenharia
+                social com recursos técnicos. A palavra phishing vem do inglês "fishing", que significa "pesca". Os golpistas jogam "iscas"
+                (mensagem) para tentar fisgar seus dados.
+            </p>
+          </article>
+
+    <section id="nav-conteudos">
+      <div class="container">
+        <div class="nav-pages">
+          <span></span>
+          <a href="content3.html" class="btn-primary">Próximo: Acesse sites e aplicativos oficiais →</a>
+        </div>
+      </div>
+    </section>
+    </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <span class="material-icons" style="font-size:1rem;vertical-align:middle;">shield</span>
+        Golpes, evite fraudes — Universidade de Passo Fundo · Web Lab 2025
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/theme.js"></script>
+  <script src="js/accessibility.js"></script>
+
+</body>
+</html>
