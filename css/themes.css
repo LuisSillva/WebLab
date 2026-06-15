@@ -11,6 +11,15 @@ body.dark {
   color: #F3F4F6;
 }
 
+.team-card h3 {
+    color: black;
+}
+
+/* Tema escuro */
+body.dark .team-card h3 {
+    color: white;
+}
+
 /* Header */
 header {
   background-color: #FFFFFF;
