@@ -20,6 +20,23 @@ body.dark .team-card h3 {
     color: white;
 }
 
+/* parte formulario dark mode */
+
+body.dark-theme .form-group label,
+body.dark .form-group label {
+  color: #F3F4F6;
+}
+
+
+body.dark-theme .form-group input,
+body.dark-theme .form-group textarea,
+body.dark .form-group input,
+body.dark .form-group textarea {
+  background-color: #1F2937; 
+  border-color: #374151;     
+  color: #FFFFFF;           
+}
+
 /* Header */
 header {
   background-color: #FFFFFF;
